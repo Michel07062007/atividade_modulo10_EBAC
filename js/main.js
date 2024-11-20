@@ -39,8 +39,10 @@ $(document).ready(function () {
         messages: {
             nome: 'Por favor, insira o seu nome',
             telefone: 'Por favor, insira o seu telefone',
-            cfp: 'Por favor, insira o seu CPF',
-            cep: 'Por favor, insira o seu CEP'
+            cpf: 'Por favor, insira o seu CPF',
+            cep: 'Por favor, insira o seu CEP',
+            email: 'Por favor, insira o seu E-mail',
+            endereco: 'Por favor, insira o seu endereço'
         },
         submitHandler: function (form) {
             console.log(form)
